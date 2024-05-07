@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-    border-radius: 1rem;
+    border-radius: .25rem;
     border-style: ridge;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border-color: #ced4da;
