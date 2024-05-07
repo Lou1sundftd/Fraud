@@ -1,0 +1,237 @@
+head {
+    font-family: inherit;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 540px;
+    height: 433.25px;
+    margin: 0 auto; /* 將內容置中 */
+    box-sizing: border-box; /* 讓內邊距和邊框計算在內容框的大小中 */
+    font-family: "Microsoft YaHei"
+}
+
+p {
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.App {
+    text-align: left;
+}
+
+
+.text-center {
+    text-align: center !important;
+    height: 28.79px;
+    color: black;
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    height: 30px;
+}
+
+.m-auto {
+    margin: auto !important;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+}
+.d-block {
+    display: block !important;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+/*form*/
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ced4da;;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1rem;
+    border-style: ridge;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-color: #ced4da;
+}
+
+.form-control-md {
+    width: 100%; /* 讓輸入框填滿父級容器的寬度 */
+    height: 40px; /* 設置輸入框的高度 */
+    font-size: 16px; /* 設置輸入框的字體大小 */
+}
+
+.form-control-md::placeholder {
+    color: #6c757d
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button, input {
+    overflow: visible;
+}
+
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 100%;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-shadow: none;
+}
+
+.btn-block+.btn-block {
+    margin-top: .5rem;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-back {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    margin-top: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-back:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.form-text {
+    display: block;
+    margin-top: .25rem;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+
+
+
+

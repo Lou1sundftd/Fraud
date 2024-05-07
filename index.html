@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8">
+    <title>龍邑遊戲|客服紀錄查詢</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-9 col-lg-6 m-auto">
+                        <h4 class="text-center">線上回報紀錄查詢</h4>
+                        <p class="lead text-center">請填寫以下資訊</p>
+                        <small class="d-block pb-3">* = Email 或手機擇一填寫即可</small>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control-md" placeholder=" *Email" name="email" value>
+                                <small class="form-text text-muted">填寫回報時所用Email</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-md" placeholder=" *手機" name="phone" pattern="^[0-9]{10,12}$" title="手機號碼應為10到12位數字" required>
+                                <small class="form-text text-muted">填寫回報時所用的手機號碼</small>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-md" placeholder=" 客服代碼" name="email" value>
+                                <small class="form-text text-muted">回報完成後得到的代碼, 可以在email中查詢</small>
+                            </div>
+                            <input type="submit" class="btn btn-info btn-block" value="送出">
+                            <a href="#" class="btn-back">回到客服中心</a>
+
+
+
+                        </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
